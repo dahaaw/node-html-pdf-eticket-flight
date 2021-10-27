@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://masterdiskon.com/assets/corporate/css/main.css" rel="stylesheet">
+    <style>
+        body {
+            font-size: 12px;
+        }
+
+        span,
+        p,
+        td,
+        th {
+            font-size: 12px;
+        }
+        .table th, .table td{
+            vertical-align: top !important;
+            border: none;
+        }
+        
+        .text-right{text-align: right}
+        .bg-info{background: #B4D5F9 !important}
+        .img-logo{height: 100px}
+        .img-icon{height: 14px}
+        .img-icon-lg{height: 24px}
+        .img-airline{height: 80px}
+        .timeline{position:relative}
+        .timeline ul li{list-style-type:none;display:flex;flex-direction:row}
+        .point{min-width:20px;height:20px;background-color:#fff;border-radius:100%;z-index:2;border:2px blue solid;position:relative;left:1px}
+        .timeline ul li .isinya{padding:0 20px;margin-top:-3%}
+        .timeline::before{content:"";position:absolute;height:60%;margin-left:12px;margin-top:3%;width:3px;left:7.5%;background-color:grey}
+        .jadwal th, .jadwal td{padding: 0 .55rem 0 .55rem !important}
+    </style>
+</head>
+
+<body>
+        <%- include('layout/header.ejs') %>
+
+        <!-- info tambahan -->
+        <div class="bg-info text-center py-2 my-2" style="font-weight: bold;margin-top: 10px;border-radius: 8px">
+            <table>
+                <tr>
+                    <td valign="top" class="p-2" style="width: 33%">
+                        <table>
+                            <tr>
+                                <td valign="top"><img class="img-icon-lg" src="https://masterdiskon.com/assets/front/img/icon/icon/invoice.svg"></td>
+                                <td align="left">
+                                    <span>Mohon tunjukan e-tiket ini dan identitas anda saat check in!</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td valign="top" class="p-2" style="width: 33%">
+                        <table>
+                            <tr>
+                                <td valign="top"><img class="img-icon-lg" src="https://masterdiskon.com/assets/front/img/icon/icon/padlock.svg"></td>
+                                <td align="left">
+                                    <span>Harap check in 90 menit sebelum keberangkatan</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td valign="top" class="p-2" style="width: 33%">
+                        <table>
+                            <tr>
+                                <td valign="top"><img class="img-icon-lg" src="https://masterdiskon.com/assets/front/img/icon/icon/compass.svg"></td>
+                                <td align="left">
+                                    <span>Seluruh tampilan waktu adalah berdasarkan waktu bandara setempat</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- end of info tambahan -->
+
+        <!-- ONWARD -->
+        <%- include('layout/flight.ejs', {flight: onward}) %>
+
+        <!-- RETURN -->
+        <% if(rt.length) { %>
+            <div style="page-break-after:always;">
+                <%- include('layout/flight.ejs', {flight: rt}) %>
+            </div> 
+        <% } %>
+        
+
+        <%- include('layout/footer.ejs', {dada:"tata"}) %>
+
+</body>
+
+</html>

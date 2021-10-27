@@ -1,0 +1,115 @@
+<!-- loop flight schedule -->
+<% flight.forEach((fl) => { %>
+    <div style="margin-top: 20px;">
+        <table class="table jadwal">
+            <tr>
+                <td style="width: 25%;">
+                    <div class="media-body">
+                    
+                    <img class="img-airline mr-2" src="https://cdn.masterdiskon.com/masterdiskon/product/flight/airline/airasia.jpg">
+                        <p class="mb-0"><%= fl.carrier.name %></p>
+                    </div>
+                </td>
+                <td valign="top" style="width: 25%">
+                    <!-- <p>segment - <%= moment(fl.depDetail.time).format("DD MMM YYYY") %></p> -->
+                    <table>
+                        <tr>
+                            <td valign="top"><img class="img-icon" src="https://masterdiskon.com/assets/icon/original/blue/icon-app-masdis-25.svg"></td>
+                            <td>
+                                <div>
+                                    <p class="mb-0 origin"><%= fl.depDetail.city %> / <%= fl.depDetail.code %></p>
+                                    <p class="mb-0 "><%= fl.depDetail.name %></p>
+                                    <p class="mb-0"><%= moment(fl.depDetail.time).format("dddd, DD MMM YYYY") %></p>
+                                    <p class="mb-0"><b><%= moment(fl.depDetail.time).format("HH:mm") %></b></p>
+                                    <% if(fl.depDetail.terminal) { %>Terminal <%= fl.depDetail.terminal %><% } %>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top" style="width: 25%">
+                    <table>
+                        <tr>
+                            <td valign="top"><img class="img-icon" src="https://masterdiskon.com/assets/icon/original/blue/icon-app-masdis-26.svg"></td>
+                            <td>
+                                <div>
+                                    <p class="mb-0 origin"><%= fl.arrDetail.city %> / <%= fl.arrDetail.code %></p>
+                                    <p class="mb-0 "><%= fl.arrDetail.name %></p>
+                                    <p class="mb-0"><%= moment(fl.arrDetail.time).format("dddd, DD MMM YYYY") %></p>
+                                    <p class="mb-0"><b><%= moment(fl.arrDetail.time).format("HH:mm") %></b></p>
+                                    <% if(fl.arrDetail.terminal) { %><p class="mb-0 ">Terminal <%= fl.arrDetail.terminal %></p><% } %>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td>
+                    <table>
+                        <tr>
+                            <td valign="top"><img class="img-icon" src="https://masterdiskon.com/assets/icon/original/blue/icon-app-masdis-06.svg"></td>
+                            <td>
+                                <span><%= Math.floor(fl.flyTime/60) %>h <%= fl.flyTime - (Math.floor(fl.flyTime/60) * 60) %>m</span>
+                                <h5 class="mb-0"><b><%= fl.carrier.code %>-<%= fl.flightNo %></b></h5>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+        </table>
+
+        <div class="mt-4">
+            <section>
+                <div class="">
+                    <table class="table">
+                        <thead>
+                            <tr class="bg-light text-black">
+                                <th>No</th>
+                                <th>Passenger(s)</th>
+                                <th>Type</th>
+                                <th>Ticket Number</th>
+                                <th>Baggage</th>
+                                <th>Meal</th>
+                                <th>Status</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody class="pax">
+                        <!-- loop pax -->
+                        <% travellerDataList.forEach((traveller, i) => { %>
+                            <tr>
+                                <td><%= i + 1 %></td>
+                                <td><%= traveller.title %> <%= traveller.firstName %> <%= traveller.lastName %></td>
+                                <td><%= traveller.pType %></td>
+                                <td><%= traveller.segmentBookingDetails[fl.key].pnr %></td>
+                                <td><%= traveller.segmentBookingDetails[fl.key].ssr && traveller.segmentBookingDetails[fl.key].ssr.baggage ? traveller.segmentBookingDetails[fl.key].ssr.baggage.qty + ' ' + traveller.segmentBookingDetails[fl.key].ssr.baggage.unit : '-' %></td>
+                                <td><%= traveller.segmentBookingDetails[fl.key].ssr && traveller.segmentBookingDetails[fl.key].ssr.meal ? traveller.segmentBookingDetails[fl.key].ssr.meal.desc : '-' %></td>
+                                <td><%= traveller.segmentBookingDetails[fl.key].status %></td>
+                                
+                            </tr>
+                        <% }) %>
+                        <!-- end loop pax -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <% if(fl.layover) { %>
+            <div style="width: 50%; margin: auto; background-color: darkgrey; border-radius: 10px; height: 30px;  text-align: center;">
+                <div style="padding-top: 5px; color: white;">
+                    <h6><b>berenti <%= Math.floor(fl.layover/60) %>h <%= fl.layover - (Math.floor(fl.layover/60) * 60) %>m</b></h6>
+                </div>
+            </div>
+        <% } %>
+        
+    </div>
+    <% }) %>
+    <!-- end loop flight -->
+
+    <div class="maskapai py-3">
+    <h5>Airline Condition</h5>
+    <p>Please read and understand the follfling airlines conditions of carriage</p>
+    </div>    
+</div>

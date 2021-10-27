@@ -1,0 +1,710 @@
+{
+    "refId": "FMNTID30070SMMR",
+    "orderId": 327622,
+    "status": "CONFIRMED",
+    "bookDate": "2021-10-15 17:08:37.784",
+    "productType": "FLIGHT",
+    "documents": [],
+    "payDet": {
+        "fareDet": {
+            "base": {
+                "amount": 6204128
+            },
+            "bookFeeTax": {
+                "amount": 1858455
+            },
+            "addon": {
+                "amount": 1271400
+            },
+            "nta": {
+                "amount": 9001310
+            },
+            "total": {
+                "amount": 9333983
+            }
+        },
+        "status": 3,
+        "isDocReq": false
+    },
+    "delData": {
+        "mobile": "62-123456",
+        "isdCode": "0",
+        "email": "dahaaw@gmail.com",
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": ""
+    },
+    "items": {
+        "travellerDataList": [
+            {
+                "segmentBookingDetails": {
+                    "0": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "10.0 kg",
+                                "unit": "kg",
+                                "qty": 10,
+                                "amount": 80000
+                            },
+                            "meal": {
+                                "desc": "Uncle Chins Chicken Rice;"
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "1": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "10.0 kg",
+                                "unit": "kg",
+                                "qty": 10,
+                                "amount": 80000
+                            },
+                            "meal": {
+                                "desc": "Uncle Chins Chicken Rice;"
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "2": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "5.0 kg",
+                                "unit": "kg",
+                                "qty": 5,
+                                "amount": 270000
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "3": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "5.0 kg",
+                                "unit": "kg",
+                                "qty": 5,
+                                "amount": 270000
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    }
+                },
+                "id": "0",
+                "pType": "adt",
+                "title": "Mr",
+                "firstName": "HAMDAN F",
+                "lastName": "ST",
+                "dob": "1994-10-04",
+                "passport": {
+                    "num": "1231212420",
+                    "nat": "Indonesia"
+                }
+            },
+            {
+                "segmentBookingDetails": {
+                    "0": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "10.0 kg",
+                                "unit": "kg",
+                                "qty": 10,
+                                "amount": 80000
+                            },
+                            "meal": {
+                                "desc": "Uncle Chins Chicken Rice;"
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "1": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "10.0 kg",
+                                "unit": "kg",
+                                "qty": 10,
+                                "amount": 80000
+                            },
+                            "meal": {
+                                "desc": "Uncle Chins Chicken Rice;"
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "2": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "5.0 kg",
+                                "unit": "kg",
+                                "qty": 5,
+                                "amount": 270000
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "3": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "5.0 kg",
+                                "unit": "kg",
+                                "qty": 5,
+                                "amount": 270000
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    }
+                },
+                "id": "1",
+                "pType": "adt",
+                "title": "Mr",
+                "firstName": "HAMDAN F",
+                "lastName": "DW",
+                "dob": "1999-10-04",
+                "passport": {
+                    "num": "1231212421",
+                    "nat": "Indonesia"
+                }
+            },
+            {
+                "segmentBookingDetails": {
+                    "0": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "10.0 kg",
+                                "unit": "kg",
+                                "qty": 10,
+                                "amount": 80000
+                            },
+                            "meal": {
+                                "desc": "Uncle Chins Chicken Rice;"
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "1": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "10.0 kg",
+                                "unit": "kg",
+                                "qty": 10,
+                                "amount": 80000
+                            },
+                            "meal": {
+                                "desc": "Uncle Chins Chicken Rice;"
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "2": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "5.0 kg",
+                                "unit": "kg",
+                                "qty": 5,
+                                "amount": 270000
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    },
+                    "3": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {
+                            "baggage": {
+                                "desc": "5.0 kg",
+                                "unit": "kg",
+                                "qty": 5,
+                                "amount": 270000
+                            }
+                        },
+                        "status": "CONFIRMED"
+                    }
+                },
+                "id": "2",
+                "pType": "chd",
+                "title": "Mstr",
+                "firstName": "ANAK",
+                "lastName": "HAMDAN",
+                "dob": "2019-10-01",
+                "passport": {
+                    "num": "1231212422",
+                    "nat": "Indonesia"
+                }
+            },
+            {
+                "segmentBookingDetails": {
+                    "0": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {},
+                        "status": "CONFIRMED"
+                    },
+                    "1": {
+                        "pnr": "TU893K",
+                        "ticketNumber": "TU893K",
+                        "ssr": {},
+                        "status": "CONFIRMED"
+                    },
+                    "2": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {},
+                        "status": "CONFIRMED"
+                    },
+                    "3": {
+                        "pnr": "DUMMYPNR",
+                        "ticketNumber": "DUMMYPNR",
+                        "ssr": {},
+                        "status": "CONFIRMED"
+                    }
+                },
+                "id": "3",
+                "pType": "inf",
+                "title": "Mstr",
+                "firstName": "BAYI",
+                "lastName": "HAMDAN",
+                "dob": "2021-06-01",
+                "passport": {
+                    "num": "1231212423",
+                    "nat": "Indonesia"
+                }
+            }
+        ],
+        "flights": [
+            {
+                "key": 0,
+                "carrier": {
+                    "code": "QZ",
+                    "name": "AirAsia Indonesia Airways"
+                },
+                "depDetail": {
+                    "time": "2021-10-23 07:05:00.000",
+                    "terminal": "2F",
+                    "code": "CGK",
+                    "name": "Jakarta-soekarno Hatta",
+                    "country": "Indonesia",
+                    "city": "Jakarta"
+                },
+                "arrDetail": {
+                    "time": "2021-10-23 08:30:00.000",
+                    "terminal": "2",
+                    "code": "SUB",
+                    "name": "Surabaya",
+                    "country": "Indonesia",
+                    "city": "Surabaya"
+                },
+                "flightNo": "686",
+                "stops": 0,
+                "stopDetail": [],
+                "flyTime": 85,
+                "layover": 140,
+                "isReturn": false,
+                "amenities": {
+                    "baggage": {
+                        "cabin": {
+                            "adt": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            }
+                        },
+                        "checkin": {
+                            "adt": {
+                                "desc": "15KG",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "15KG",
+                                "isAvl": true
+                            },
+                            "inf": {
+                                "desc": "0 Kg",
+                                "isAvl": true
+                            }
+                        }
+                    },
+                    "meal": false
+                },
+                "refundable": true
+            },
+            {
+                "key": 1,
+                "carrier": {
+                    "code": "QZ",
+                    "name": "AirAsia Indonesia Airways"
+                },
+                "depDetail": {
+                    "time": "2021-10-23 10:50:00.000",
+                    "terminal": "",
+                    "code": "SUB",
+                    "name": "Surabaya",
+                    "country": "Indonesia",
+                    "city": "Surabaya"
+                },
+                "arrDetail": {
+                    "time": "2021-10-23 12:50:00.000",
+                    "terminal": "",
+                    "code": "DPS",
+                    "name": "Bali/ Denpasar",
+                    "country": "Indonesia",
+                    "city": "Bali/ Denpasar"
+                },
+                "flightNo": "627",
+                "stops": 0,
+                "stopDetail": [],
+                "flyTime": 60,
+                "isReturn": false,
+                "amenities": {
+                    "baggage": {
+                        "cabin": {
+                            "adt": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            }
+                        },
+                        "checkin": {
+                            "adt": {
+                                "desc": "15KG",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "15KG",
+                                "isAvl": true
+                            },
+                            "inf": {
+                                "desc": "0 Kg",
+                                "isAvl": true
+                            }
+                        }
+                    },
+                    "meal": false
+                },
+                "refundable": true
+            },
+            {
+                "key": 2,
+                "carrier": {
+                    "code": "QG",
+                    "name": "Citilink"
+                },
+                "depDetail": {
+                    "time": "2021-11-06 15:10:00.000",
+                    "terminal": "",
+                    "code": "DPS",
+                    "name": "Bali/ Denpasar",
+                    "country": "Indonesia",
+                    "city": "Bali/ Denpasar"
+                },
+                "arrDetail": {
+                    "time": "2021-11-06 15:25:00.000",
+                    "terminal": "1",
+                    "code": "SUB",
+                    "name": "Surabaya",
+                    "country": "Indonesia",
+                    "city": "Surabaya"
+                },
+                "flightNo": "669",
+                "aircraftType": "320",
+                "stops": 0,
+                "stopDetail": [],
+                "flyTime": 75,
+                "layover": 230,
+                "isReturn": true,
+                "amenities": {
+                    "baggage": {
+                        "cabin": {
+                            "adt": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            }
+                        },
+                        "checkin": {
+                            "adt": {
+                                "desc": "20 Kg Included",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "20 Kg Included",
+                                "isAvl": true
+                            },
+                            "inf": {
+                                "desc": "0 Kg",
+                                "isAvl": true
+                            }
+                        }
+                    },
+                    "meal": false
+                },
+                "refundable": true
+            },
+            {
+                "key": 3,
+                "carrier": {
+                    "code": "QG",
+                    "name": "Citilink"
+                },
+                "depDetail": {
+                    "time": "2021-11-06 19:15:00.000",
+                    "terminal": "",
+                    "code": "SUB",
+                    "name": "Surabaya",
+                    "country": "Indonesia",
+                    "city": "Surabaya"
+                },
+                "arrDetail": {
+                    "time": "2021-11-06 20:45:00.000",
+                    "terminal": "",
+                    "code": "CGK",
+                    "name": "Jakarta-soekarno Hatta",
+                    "country": "Indonesia",
+                    "city": "Jakarta"
+                },
+                "flightNo": "721",
+                "aircraftType": "320",
+                "stops": 0,
+                "stopDetail": [],
+                "flyTime": 90,
+                "isReturn": true,
+                "amenities": {
+                    "baggage": {
+                        "cabin": {
+                            "adt": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "7 Kg ",
+                                "isAvl": true
+                            }
+                        },
+                        "checkin": {
+                            "adt": {
+                                "desc": "20 Kg Included",
+                                "isAvl": true
+                            },
+                            "chd": {
+                                "desc": "20 Kg Included",
+                                "isAvl": true
+                            },
+                            "inf": {
+                                "desc": "0 Kg",
+                                "isAvl": true
+                            }
+                        }
+                    },
+                    "meal": false
+                },
+                "refundable": true
+            }
+        ],
+        "timelimit": "2021-10-15 18:58:00.000",
+        "isNearAirport": false
+    },
+    "srchQry": {
+        "sectorInfos": [
+            {
+                "src": {
+                    "code": "CGK",
+                    "name": "Jakarta-soekarno Hatta",
+                    "country": "Indonesia",
+                    "city": "Jakarta"
+                },
+                "dest": {
+                    "code": "DPS",
+                    "name": "Bali/ Denpasar",
+                    "country": "Indonesia",
+                    "city": "Bali/ Denpasar"
+                },
+                "date": "2021-10-23",
+                "debug": false
+            },
+            {
+                "src": {
+                    "code": "DPS",
+                    "name": "Bali/ Denpasar",
+                    "country": "Indonesia",
+                    "city": "Bali/ Denpasar"
+                },
+                "dest": {
+                    "code": "CGK",
+                    "name": "Jakarta-soekarno Hatta",
+                    "country": "Indonesia",
+                    "city": "Jakarta"
+                },
+                "date": "2021-11-06",
+                "debug": false
+            }
+        ],
+        "class": "ALL",
+        "paxCount": {
+            "adt": 2,
+            "chd": 1,
+            "inf": 1
+        },
+        "route": "ALL",
+        "disc": false,
+        "multiHop": false,
+        "multiCity": false,
+        "senior": false,
+        "special": false,
+        "domestic": true,
+        "isOfflineSearch": false,
+        "isPaxWiseCommission": false,
+        "isComboAllowed": false,
+        "pwd": false,
+        "isIntlSearcherCombination": false
+    },
+    "afltId": "",
+    "afltToken": "",
+    "cancellations": {
+        "cancellationData": []
+    },
+    "upcoming": true,
+    "showPrintInvoice": true,
+    "showAgentInfoOnTkt": true,
+    "bookingUser": {
+        "contactInfo": {
+            "mobile": "081383331226",
+            "email": "eyodia@masterdiskon.com",
+            "street": "Jl. H. Baping No 100, Ciracas, Jakarta 13740",
+            "city": "Jakarta Timur",
+            "state": "DKI Jakarta"
+        },
+        "name": "PT Master Diskon International",
+        "logo": "http://qatestid.via.com//static/img/via_logos/logo.gif"
+    },
+    "version": "1.0",
+    "restrictModifications": false,
+    "isAuthRqd": false,
+    "showCancelTicket": false,
+    "webCheckIn": {
+        "QZ": "https://www.airasia.com/check-in/en/gb/"
+    },
+    "webDta": {
+        "hdr": {
+            "priNavEl": [
+                {
+                    "dsplyNm": "Flights",
+                    "dsplyUrl": "http://qatestid.via.com/flight-tickets",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "flightProductNav"
+                },
+                {
+                    "dsplyNm": "Kereta Api",
+                    "dsplyUrl": "http://qatestid.via.com/train/home",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "railProductNav"
+                },
+                {
+                    "dsplyNm": "Hotels",
+                    "dsplyUrl": "http://qatestid.via.com/hotels",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "hotelProductNav"
+                },
+                {
+                    "dsplyNm": "Holidays",
+                    "dsplyUrl": "http://qatestid.via.com/holidays",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "holidayProductNav"
+                }
+            ],
+            "secNavEl": [
+                {
+                    "dsplyNm": "DEALS",
+                    "dsplyUrl": "http://qatestid.via.com/promo",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "dealSecondaryNav"
+                },
+                {
+                    "dsplyNm": "Download App",
+                    "dsplyUrl": "https://play.google.com/store/apps/details?id=app.via&referrer=utm-country%3Did%26utm_source%3Dheader",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "appSecondaryNav"
+                },
+                {
+                    "dsplyNm": "LOGIN",
+                    "dsplyUrl": "https://qatestid.via.com/bdo?action1=",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "loginSecondaryNav"
+                },
+                {
+                    "dsplyNm": "SUPPORT",
+                    "dsplyUrl": "https://qatestid.via.com/bdo?action1=",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "supportSecondaryNav"
+                },
+                {
+                    "dsplyNm": "BOOKING STATUS",
+                    "dsplyUrl": "https://qatestid.via.com/bdo?action1=",
+                    "selected": false,
+                    "tempNav": false,
+                    "navId": "checkBookingStatus"
+                }
+            ],
+            "phNum": "(021) 29 222 333",
+            "emlId": "id.support@via.com",
+            "userSupportPhoneNum": "(021) 29 222 333",
+            "userSupportEmailId": "id.support@via.com",
+            "ntData": {},
+            "isChatApplicable": false
+        },
+        "envDta": {
+            "domesticCountryId": "101",
+            "currentEnv": "id",
+            "isB2CEnv": false,
+            "currencyCode": "IDR",
+            "currencySymbol": "Rp",
+            "countryCode": "ID",
+            "countryName": "Indonesia",
+            "userRole": "U",
+            "isMobile": false,
+            "languageSelected": "en"
+        }
+    },
+    "cndtns": {
+        "isHotelSuggestionsEnabled": true,
+        "showAirlineTicket": false,
+        "voucherApplicable": true
+    }
+}
